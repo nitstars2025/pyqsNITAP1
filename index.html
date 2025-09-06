@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NITAP Resources</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #0b0f19;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #111827;
+            padding: 15px;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero-title {
+            font-size: 3rem;
+            font-weight: bold;
+            background: linear-gradient(90deg, #8a5cf4, #f76ac6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-title{
+            font-size: 3em;
+            transition: font-size 0.3s ease;
+        }
+
+        .hero-title:hover {
+            font-size: 3.5em;
+        }
+        .badge {
+            font-size: 1em;
+            transition: font-size 0.3s ease;
+        }
+
+        .badge :hover {
+            font-size: 2em;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.5rem;
+            text-align: center;
+            color: #d1d5db;
+        }
+        .btn-custom {
+            background-color: #7b61ff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        }
+        .btn-custom:hover {
+            background-color: #684edf;
+            transform: scale(1.1);
+        }
+        .header-container {
+            background-color: #0b0f19;
+            color: white;
+            padding: 10px 20px;
+            border-bottom: 2px solid #444;
+            
+        }
+        .header-container .logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo img {
+            height: 50px;
+        }
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .header-right span {
+            color: #6fc457;
+            font-size: 0.9rem;
+        }
+        .section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .section h2 {
+            color: #a78bfa;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .section h2{
+            font-size: 2em;
+            transition: font-size 0.3s ease;
+        }
+
+        .section h2:hover {
+            font-size: 3em;
+        }
+        .footer {
+            background: linear-gradient(90deg, #5ea870, #6aa2b8);
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer-columns {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: left;
+        }
+        .footer-column {
+            flex: 1;
+            min-width: 250px;
+            margin: 10px;
+        }
+        .important-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .important-links .card {
+            background-color: #1e293b;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .important-links .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+        .important-links .card a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .important-links .card a:hover {
+            text-decoration: underline;
+        }
+        /* Responsive for mobile screens */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 15px;   /* reduce padding */
+    }
+
+    .hero-title {
+        font-size: 2rem;      /* smaller heading */
+    }
+
+    .hero-title:hover {
+        font-size: 2.2rem;    /* smaller hover effect */
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .badge {
+        font-size: 0.9rem;
+    }
+
+    .important-links {
+        flex-direction: column; /* stack cards vertically */
+        align-items: center;
+    }
+
+    .important-links .card {
+        width: 100%; /* full width on mobile */
+        max-width: 350px;
+        margin-bottom: 15px;
+    }
+
+    .footer-columns {
+        flex-direction: column;  /* stack footer columns */
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-column {
+        margin: 15px 0;
+    }
+
+    .logo img {
+        height: 35px;  /* smaller logo */
+    }
+}
+
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header-container">
+        <div class="container logo">
+            <div>
+                <a href="https://www.nitap.ac.in/"><img src="nit ap logo.png"></a>
+                <a strong href="https://www.nitap.ac.in/"> राष्ट्रीय प्रौद्योगिकी संस्थान अरुणाचल प्रदेश</strong><br>
+                <strong>National Institute of Technology Arunachal Pradesh</strong>
+            </div>
+            <div class="header-right">
+                <span><a href="mailto:NITStars2025@gmail.com" class="text-decoration-none text-light">📧 NITStars2025@gmail.com</a></span>
+                <span>📞 0360-2284801</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="container hero-section">
+        <p class="badge bg-secondary">"Unlock the Past, Shape Your Future!!"</p>
+        <h1 class="hero-title">Welcome to NIT ARUNACHAL PRADESH</h1>
+        <p class="hero-subtitle">Access to all past year question papers for your academic excellence.</p>
+        <a href="#card-title" class="btn btn-custom">Get Started &rarr;</a>
+    </div>
+
+    <!-- Our Objective Section -->
+    <div class="container section">
+        <h2>Our Objective</h2>
+        <p>Our objective is to make academic preparation easier and more effective for every student of NIT Arunachal Pradesh. Through this platform, we aim to provide quick and organized access to past year question papers of B.Tech, M.Tech, and Ph.D. programs. By creating a reliable academic resource built by students, for students, we hope to encourage a culture of knowledge-sharing and collaboration. We are committed to continuously improving this platform with valuable feedback, ensuring that it benefits not only the present batches but also future generations of learners.</p>
+    </div>
+
+    <!-- Important Links Section -->
+    <div class="container important-links">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body text-center">
+                <h5 id="card-title">BTech</h5>
+                <p class="card-text"></p>
+                <a href="https://nitstars2025.github.io/pyqsNITAP/" class="btn btn-custom">Click Here</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div class="container section">
+        <h2>Contact Us</h2>
+        <p>If you have any queries, feel free to reach out to us:</p>
+        <p>Email: 📧 <a href="mailto:NITStars2025@gmail.com">NITStars2025@gmail.com</a></p>
+        <p>Phone: 📞 0360-2284801</p>
+        <p>Address: 📍 NIT Arunachal Pradesh, Jote, Arunachal Pradesh, India </p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-columns">
+            <div class="footer-column">
+                <h5>Useful Links</h5>
+                <p>📖 <a href="#">eAcademics</a></p>
+                <p>📞 <a href="#">Contact Us</a></p>
+            </div>
+            <div class="footer-column">
+                <h5>Feedback</h5>
+                <p>Please give us your suggestions and feedback.</p>
+                <p>📝 <a href="https://docs.google.com/forms/d/e/1FAIpQLSezifnSSPdA4UHjqZwb-Cua3I0_7aOYlH32WOBYAfHinwolSw/viewform?usp=header">Click here</a> for the feedback form.</p>
+            </div>
+            <div class="footer-column">
+                <h5>Follow Us</h5>
+                <p>📸 <a href="https://www.instagram.com/r__ishu?igsh=MW9qZThtYThyMng2YQ==">Instagram</a> | 📧 <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Email</a></p>
+                <h6>Website Created and Maintained by:</h6>
+                <a href="https://www.linkedin.com/in/prateek-singh-490a08315">💻 Prateek Singh</a>
+                <br>
+                <a href="https://www.linkedin.com/in/vinay-pal-849212334">💻 Vinay Pal</a>
+                <p>&copy; STARS 2025. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
